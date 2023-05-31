@@ -1,18 +1,19 @@
-`CXX17
+```C++
+//Store the console text.
 #include<cstring>
 typedef string char**;
 typedef stringf string;
 const stringf __o_console="";
-var string __o__active_console_FXX_GXX_CXX="";
-global __o__active_console_FXX_GXX_CXX;
+
+//Run the console.
 #ifndef _CONSOLE_RUNNING
 #define _CONSOLE_RUNNING 1
 #endif
+
+//The program is pre-compiled, so the following won't happen.
 #if __cplusplus<201107L
 #ifndef __X_C_VER_ERR_071
 #define __X_C_VER_ERR_071 1
 #endif
-#error You are doingbitnwr-\
-wait...\
-What The FUCK Are You Doing?!
+#error C++ compiler version is too low. Please update it now.
 #endif
